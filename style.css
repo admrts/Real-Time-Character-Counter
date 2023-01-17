@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff8ea;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 500px;
+  height: 300px;
+  box-shadow: 0 0 30px #594545;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  gap: 20px;
+  background-color: #9e7676;
+}
+textarea {
+  padding: 10px;
+  outline: none;
+  resize: none;
+  border-radius: 10px;
+  background-color: #fff8ea;
+  color: #594545;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-counter {
+  color: rgb(62, 62, 196);
+}
+.remaining-counter {
+  color: rgb(142, 4, 4);
+}
